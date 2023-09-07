@@ -5,6 +5,6 @@ import GameSavingLoader from './GameSavingLoader.js';
     const saving = await GameSavingLoader.load();
     console.log(saving);
   } catch (error) {
-    console.error('An error occurred:', error);
+    console.error(error);
   }
 })();
